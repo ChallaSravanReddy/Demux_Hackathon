@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>3D Workspace with More Objects</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="toolbar">
+    <button id="add-cube"><i class="fa-solid fa-cube"></i></button>
+    <button id="add-cuboid"><i class="fa-solid fa-kaaba"></i></button>
+    <button id="add-cylinder">Add Cylinder</button>
+    <button id="add-sphere">Add Sphere</button>
+    <button id="reset">Reset Scene</button>
+	  <button id="pen">Pen</button>
+            <button id="pencil">Pencil</button>
+            <button id="eraser">Eraser</button>
+            <button id="rectangle">Rectangle</button>
+            <button id="circle">Circle</button>
+            <button id="textbox">Textbox</button>
+            <button id="undo">Undo</button>
+            <button id="redo">Redo</button>
+  </div>
+
+  <div id="workspace"></div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
